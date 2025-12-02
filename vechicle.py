@@ -10,9 +10,9 @@ def vehicle_info(vehicle_number, owner_name, vehicle_type, year_of_manufacture):
 def main():
     # Sample input values (you can modify these)
     vehicle_number = "KA09AB1234"
-    owner_name = "John Doe"
-    vehicle_type = "Sedan"
-    year_of_manufacture = 2018
+    owner_name = "suraj"
+    vehicle_type = "car"
+    year_of_manufacture = 2020
     
     # Call vehicle_info and print the result
     print(vehicle_info(vehicle_number, owner_name, vehicle_type, year_of_manufacture))
