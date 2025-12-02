@@ -13,6 +13,9 @@ def main():
     owner_name = "John Doe"
     vehicle_type = "Sedan"
     year_of_manufacture = 2018
+    
+    # Call vehicle_info and print the result
     print(vehicle_info(vehicle_number, owner_name, vehicle_type, year_of_manufacture))
+
 if __name__ == "__main__":
     main()
